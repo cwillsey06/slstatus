@@ -68,7 +68,7 @@ static const char dwm_ver[] = "printf '%s' \"dwm-6.4\"";
 static const char pa_vol[] = "pamixer --get-volume";
 static const struct arg args[] = {
 	/* function     format            argument */
-	{ cpu_perc,     "CPU: %s%% | ",  NULL      },
+	{ cpu_perc,    " CPU: %s%% | ",  NULL      },
 	{ ram_perc,     "MEM: %s%% | ",  NULL      },
 	{ run_command,  "VOL: %s%% | ",  pa_vol    },
 	{ datetime,     "%s | ",         "%F %T"   },
